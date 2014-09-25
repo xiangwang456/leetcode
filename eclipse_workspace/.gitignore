@@ -1,0 +1,11 @@
+.metadata/
+NewJavaCode/
+Project/
+RemoteSystemsTempFiles/
+trade/
+*/.settings/
+*/bin/
+*.classpath
+*.project
+*.zip
+
