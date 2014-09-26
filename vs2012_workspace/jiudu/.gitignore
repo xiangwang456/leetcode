@@ -12,3 +12,4 @@ targetver.h
 .gitignore.bak
 /*/Debug/
 *.vcxproj.user
+*.opensdf
