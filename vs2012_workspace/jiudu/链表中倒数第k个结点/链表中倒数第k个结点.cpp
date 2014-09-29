@@ -1,26 +1,50 @@
 #include <stdio.h>
-#include <list>
+
 
 using namespace std;
+struct My_list
+{
+	int value;
+	My_list *next;
+};
 
 int main()
 {
-	list<int>::size_type n;//list元素个数
-	while (scanf_s("%d", &n) != EOF)
+	int n;//list元素个数
+	My_list *ilist=NULL;
+	while (scanf("%d", &n) != EOF)
 	{
 		int result;
-		list<int> ilist(n);
-		list<int>::size_type lastIndex; 
-		scanf_s("%d", &lastIndex);
+		int lastIndex;
+		scanf("%d", &lastIndex);
 
-		list<int>::size_type t = n - lastIndex;
+		int  t = n - lastIndex;
+		My_list *endlist;
 		for(int i=0;i<n;i++)
 		{
+			
 			int num;
-			scanf_s("%d", &num);
+			scanf("%d", &num);
+			if(i==0)  //建立链表
+			{
+				ilist=new My_list();
+				ilist->value=num;
+				ilist->next=NULL;
+				endlist=ilist;
+			}
+			else    // 尾插法
+			{
+				My_list *node=new My_list();
+				node->value=num;
+				node->next=NULL;
+				endlist->next=node;
+				endlist=node;
+			}
+			
+			
 			if (t == i)
 				result = num;
-			ilist.push_back(num);
+			
 		}
 		if (t < 0||lastIndex==0)
 			printf("NULL\n");
