@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quick3way", "quick3way\quick3way.vcxproj", "{2CADFC07-1E4A-4FF6-BB3F-0B8E35B66779}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quicksort", "quicksort\quicksort.vcxproj", "{BEDF8A91-1172-4E0C-B16C-E3B2007B9459}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CADFC07-1E4A-4FF6-BB3F-0B8E35B66779}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CADFC07-1E4A-4FF6-BB3F-0B8E35B66779}.Debug|Win32.Build.0 = Debug|Win32
+		{2CADFC07-1E4A-4FF6-BB3F-0B8E35B66779}.Release|Win32.ActiveCfg = Release|Win32
+		{2CADFC07-1E4A-4FF6-BB3F-0B8E35B66779}.Release|Win32.Build.0 = Release|Win32
+		{BEDF8A91-1172-4E0C-B16C-E3B2007B9459}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEDF8A91-1172-4E0C-B16C-E3B2007B9459}.Debug|Win32.Build.0 = Debug|Win32
+		{BEDF8A91-1172-4E0C-B16C-E3B2007B9459}.Release|Win32.ActiveCfg = Release|Win32
+		{BEDF8A91-1172-4E0C-B16C-E3B2007B9459}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

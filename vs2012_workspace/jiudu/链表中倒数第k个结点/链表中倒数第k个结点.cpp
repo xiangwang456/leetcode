@@ -3,6 +3,8 @@
 
 using namespace std;
 
+struct<
+
 int main()
 {
 	list<int>::size_type n;//listÔªËØ¸öÊı
@@ -22,7 +24,7 @@ int main()
 				result = num;
 			ilist.push_back(num);
 		}
-		if (t < 0||lastIndex==0)
+		if (t < 0||lastIndex<=0)
 			printf("NULL\n");
 		else
 			printf("%d\n", result);
