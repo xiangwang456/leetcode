@@ -7,17 +7,17 @@ struct  Node
 };
 
 
-Node* merge(Node *first,Node *second)
+ Node* merge( Node *first, Node *second)
 {
-	if(first==NULL&&second==NULL)
-		return NULL;
-	else if(second==NULL)
-		return first;
-	else if(first==NULL)
-		return second;
-
+	/*  递归实现 ： 改变了first和second的指向
 	Node *result;
-	if(first->value<second->value)
+	if(first==NULL&&second==NULL)
+		result=NULL;
+	else if(second==NULL)
+		result=first;
+	else if(first==NULL)
+		result=second;
+	else if(first->value<second->value)
 	{
 		result=first;
 		result->next=merge(first->next,second);
@@ -27,6 +27,48 @@ Node* merge(Node *first,Node *second)
 		result=second;
 		result->next=merge(first,second->next);
 	}
+	return result;
+	*/
+
+	Node *i;
+	Node *j;
+	Node *result,*index;
+	int n;
+	for(i=first,j=second,n=0;i!=NULL&&j!=NULL;)
+	{
+		if(n==0)
+		{
+			if(i->value<j->value)
+			{
+				result=i;
+				index=result;
+				i=i->next;
+				n++;
+			}else{
+				result=j;
+				index=result;
+				j=j->next;
+				n++;
+			}
+		}else{
+			if(i->value<j->value)
+			{
+				index->next=i;
+				index=index->next;
+				i=i->next;
+			}else{
+				index->next=j;
+				index=index->next;
+				j=j->next;
+			}
+		}
+		
+	}
+
+	if(i==NULL)
+		index->next=j;
+	else if(j==NULL)
+		index->next=i;
 	return result;
 }
 
@@ -47,11 +89,25 @@ void __printf(Node *node)
 	}
 	printf("\n");
 }
+
+void deletenode(Node *node)
+{
+	Node *i=node;
+	Node *delN=node;
+	while(i->next)
+	{
+		delN=i;
+		i=i->next;
+		delete delN;
+	}
+	delete i;
+	node=NULL;
+}
 int main()
 {
 	int n1,n2;
-	Node *first,*i;
-	Node *second,*j;
+	Node *first,*second;
+	Node *i;
 	
 	while(scanf_s("%d %d",&n1,&n2)!=EOF)
 	{
@@ -60,34 +116,48 @@ int main()
 			printf("NULL\n");
 			return 0;
 		}
-		i=new Node;
-		j=new Node;
-		first=i;
-		second=j;
+
 		for(int k=0;k<n1;k++)
 		{
 			Node *newNode=new Node;
 			scanf_s("%d",&newNode->value);
-			i->next=newNode;
-			i=i->next;
+			newNode->next=NULL;
+			if(k==0)
+			{
+				first=newNode;
+				i=first;
+			}
+			else
+			{
+
+				i->next=newNode;
+				i=i->next;
+			}
+
 		}
-		i->next=NULL;
 		for(int k=0;k<n2;k++)
 		{
 			Node *newNode=new Node;
 			scanf_s("%d",&newNode->value);
-			j->next=newNode;
-			j=j->next;
+			newNode->next=NULL;
+			if(k==0)
+			{
+				second=newNode;
+				i=second;
+			}
+			else{
+				i->next=newNode;
+				i=i->next;
+			}
 		}
-		j->next=NULL;
 		
-		__printf(first->next);
-		__printf(second->next);
+		__printf(first);
+		__printf(second);
 
-		Node *result=merge(first->next,second->next);
+		Node *result=merge(first,second);
 		__printf(result);
-		delete first;  //bug 没有delete干净
-		delete second;
+		deletenode(result);  //bug 没有delete干净
+
 	}
 	
 	return 0;
