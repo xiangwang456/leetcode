@@ -54,7 +54,7 @@ struct  Node
 			if(i->value<j->value)
 			{
 				index->next=i;
-				index=index->next;
+				index=index->next;        //若index->next不确定存在时不可以index=index->next;
 				i=i->next;
 			}else{
 				index->next=j;
