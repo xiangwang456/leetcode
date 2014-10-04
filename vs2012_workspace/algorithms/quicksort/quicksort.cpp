@@ -13,7 +13,7 @@ void swap(int &a, int &b)
 
 int partition(int *, int, int);
 
-void sort(int *a, int low, int high)
+void sort(int &a[], int low, int high)
 {
 
 	if (low >= high)
