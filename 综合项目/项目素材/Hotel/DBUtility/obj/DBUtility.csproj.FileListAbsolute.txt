@@ -1,0 +1,10 @@
+E:\酒店管理系统\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.dll
+E:\酒店管理系统\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.pdb
+E:\酒店管理系统\Hotel\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\酒店管理系统\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.dll
+E:\酒店管理系统\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.pdb
+D:\教案\5.0课程教案\Y2-53\毕业设计\Final\酒店管理系统\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.dll
+D:\教案\5.0课程教案\Y2-53\毕业设计\Final\酒店管理系统\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.pdb
+D:\教案\5.0课程教案\Y2-53\毕业设计\Final\酒店管理系统\Hotel\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\教案\5.0课程教案\Y2-53\毕业设计\Final\酒店管理系统\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.dll
+D:\教案\5.0课程教案\Y2-53\毕业设计\Final\酒店管理系统\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.pdb

@@ -37,7 +37,7 @@ int partition(int *a, int low, int high)
 			break;
 		swap(a[i], a[j]);
 	}
-	j += 1;
+
 	swap(a[j], a[low]);
 	return j;
 }

@@ -1,0 +1,5 @@
+bin\Debug\Hotel.DBUtility.dll
+bin\Debug\Hotel.DBUtility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Hotel.DBUtility.dll
+obj\Debug\Hotel.DBUtility.pdb

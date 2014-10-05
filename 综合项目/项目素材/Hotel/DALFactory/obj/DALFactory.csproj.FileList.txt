@@ -1,0 +1,13 @@
+bin\Debug\Hotel.DALFactory.dll
+bin\Debug\Hotel.DALFactory.pdb
+bin\Debug\Hotel.IDAL.dll
+bin\Debug\Hotel.SQLServerDAL.dll
+bin\Debug\Hotel.DBUtility.dll
+bin\Debug\Hotel.Model.dll
+bin\Debug\Hotel.SQLServerDAL.pdb
+bin\Debug\Hotel.DBUtility.pdb
+bin\Debug\Hotel.IDAL.pdb
+bin\Debug\Hotel.Model.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Hotel.DALFactory.dll
+obj\Debug\Hotel.DALFactory.pdb

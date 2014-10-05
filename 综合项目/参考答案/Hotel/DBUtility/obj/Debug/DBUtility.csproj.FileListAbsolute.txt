@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\桌面\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\DBUtility\bin\Debug\Hotel.DBUtility.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\DBUtility\obj\Debug\Hotel.DBUtility.pdb

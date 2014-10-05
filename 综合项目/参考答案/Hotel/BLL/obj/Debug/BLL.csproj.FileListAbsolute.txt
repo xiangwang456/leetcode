@@ -1,0 +1,30 @@
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.BLL.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.Model.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.SQLServerDAL.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.SQLServerDAL.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\bin\Debug\Hotel.Model.pdb
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\obj\Debug\Hotel.BLL.dll
+C:\Documents and Settings\Administrator\桌面\Hotel\BLL\obj\Debug\Hotel.BLL.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\obj\Debug\Hotel.BLL.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.BLL.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.BLL.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.DALFactory.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.IDAL.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.Model.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.SQLServerDAL.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.DBUtility.dll
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.DALFactory.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.SQLServerDAL.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.DBUtility.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.IDAL.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\bin\Debug\Hotel.Model.pdb
+D:\Prt\ASP.NET\综合项目\项目素材\Hotel\BLL\obj\Debug\Hotel.BLL.dll
