@@ -1,5 +1,0 @@
-bin\Debug\Hotel.Model.dll
-bin\Debug\Hotel.Model.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\Hotel.Model.dll
-obj\Debug\Hotel.Model.pdb
