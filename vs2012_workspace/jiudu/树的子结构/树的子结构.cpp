@@ -10,6 +10,10 @@ struct BinaryTree
 
 void CreateTree(BinaryTree *trees, int m) //m节点个数， trees存储节点的数组
 {
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 2daa1b4d9b79ed52ed147933f9301fde50c6a3a6
 	for (int i = 0; i < m; i++)  //创建n个节点且赋值
 	{
 		int num;
@@ -67,6 +71,35 @@ bool IsSubtree(BinaryTree *tree1, BinaryTree *tree2)
 
 }
 
+<<<<<<< HEAD
+=======
+
+
+void printTree(BinaryTree *root) //先序遍历
+{
+
+	if (root == NULL)
+		return;
+	printf("%d ", root->value);
+
+	if (root->left)
+		printTree(root->left);
+	if (root->right)
+		printTree(root->right);
+
+
+}
+
+void freeTree(BinaryTree *tree)
+{
+	if (tree == NULL)
+		return;
+	freeTree(tree->left);
+	freeTree(tree->right);
+	delete tree;
+}
+
+>>>>>>> 2daa1b4d9b79ed52ed147933f9301fde50c6a3a6
 int main()
 {
 	int m, n;
@@ -92,8 +125,13 @@ int main()
 			printf("NO\n");
 		//printTree(&trees_m[0]);
 		//trees_n = new BinaryTree[n+1];
+<<<<<<< HEAD
 		delete[] trees_m;
 		delete[] trees_n;
+=======
+		//freeTree(trees_m);
+		//freeTree(trees_n);
+>>>>>>> 2daa1b4d9b79ed52ed147933f9301fde50c6a3a6
 	}
 	return 0;
 }
