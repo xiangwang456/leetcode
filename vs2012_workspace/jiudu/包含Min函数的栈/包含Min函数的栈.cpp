@@ -10,7 +10,7 @@ struct StackWithMin
 	void push(int value)
 	{
 		_stack.push(value);
-		if(_minstack.empty()||(value<_minstack.top()))
+		if (_minstack.empty() || (value < _minstack.top()))
 			_minstack.push(value);
 		else
 			_minstack.push(_minstack.top());
@@ -24,7 +24,15 @@ struct StackWithMin
 
 	void printMin()
 	{
-		printf("%d\n",_minstack.top());
+		if (!this->empty())
+			printf("%d\n", _minstack.top());
+		else
+			printf("NULL\n");
+	}
+
+	bool empty()
+	{
+		return _stack.empty();
 	}
 };
 
@@ -32,22 +40,23 @@ struct StackWithMin
 int main()
 {
 	int n;
-	
-	while (scanf_s("%d",&n)!=EOF)
+	StackWithMin stackwithmin;
+	while (scanf_s("%d", &n) != EOF)
 	{
-		StackWithMin stackwithmin;
+		
 		char c;
 		int num;
 		char eat;
-		for(int i=0;i<n;i++)
+		for (int i = 0; i < n; i++)
 		{
-			scanf_s("%c",&eat);
-			scanf_s("%c",&c);
-			if(c=='s')
+			scanf_s("%c", &eat);
+			scanf_s("%c", &c);
+			if (c == 's')
 			{
-				scanf_s("%d",&num);
+				scanf_s("%d", &num);
 				stackwithmin.push(num);
-			}else if(c=='o')
+			}
+			else if (c == 'o')
 				stackwithmin.pop();
 			stackwithmin.printMin();
 		}
