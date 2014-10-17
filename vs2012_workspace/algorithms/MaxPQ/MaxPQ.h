@@ -13,6 +13,7 @@ public:
 	void exch(T &i, T &j);
 	void sort();
 	void resize(int n);
+	void pritfPQ();
 private:
 	int n;
 	int max;

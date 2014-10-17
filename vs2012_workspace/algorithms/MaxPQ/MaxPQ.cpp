@@ -60,13 +60,22 @@ template<typename T> void MaxPQ<T>::exch(T &i, T &j)
 
 template<typename T> void MaxPQ<T>::resize(int num)
 {
+	int delnum = max; //要释放的内存
+	T *del = data;
+	
 	max = num;
 	T *temp=new T[num];
-	for (int i = 0; i < n; i++)
-		temp[i] = data[i];
-	delete data;	
+	for (int i = 0; i <= n; i++)
+		temp[i] = data[i];	
+	//delete data;       //释放内存失败 待解决！！
 	data = temp;
-
+	
+// 	for (int i = 0; i < delnum; i++)
+// 	{
+// 		printf("===============\ndelete data:%d\n===============\n", *(del + i));
+// 		delete &del[i];
+// 	}
+	//delete[] del;
 }
 
 template<typename T> T MaxPQ<T>::delMax(){
@@ -81,12 +90,24 @@ template<typename T> T MaxPQ<T>::delMax(){
 
 template<typename T> void MaxPQ<T>::sort()
 {
-	//int num = n;
+	int temp = n;
 	for (int i = n / 2; i >= 1; i--)      //构造堆
 		sink(i);                     
 	while (n > 1)
 	{
 		exch(data[1], data[n--]);
 		sink(1);
+	}
+	n = temp;
+}
+
+template<typename T> void MaxPQ<T>::pritfPQ()
+{
+	for (int i = 1; i <= n; i++)
+	{
+		if (i == n)
+			printf("%d\n", data[i]);
+		else
+			printf("%d ", data[i]);
 	}
 }
