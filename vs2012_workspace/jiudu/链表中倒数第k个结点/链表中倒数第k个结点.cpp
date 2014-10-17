@@ -8,7 +8,7 @@ struct My_list
 	My_list *next;
 };
 
-struct<
+
 
 int main()
 {
