@@ -18,7 +18,7 @@ int main()
 	{
 		int result;
 		int lastIndex;
-		scanf("%d", &lastIndex);
+		scanf_s("%d", &lastIndex);
 
 		int  t = n - lastIndex;
 		My_list *endlist;
