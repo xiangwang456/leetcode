@@ -2,6 +2,8 @@
 #include <vector>
 #include <functional>
 #include <set>
+#include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 typedef multiset<int, greater<int> > intset;
@@ -122,18 +124,28 @@ int main()
 // 		cout << endl;
 
 		//方法二：利用Partition
+		
+
+
+
 		int *result = new int[k];
 		int *data = new int[n];
+		srand((unsigned)time(NULL)); //产生随机数
 		for (int i = 0; i < n; i++)
 		{
-			int num;
-			cin >> data[i];
+			data[i] = rand();
+			//cin >> data[i];
+// 			if (i % 10 == 0)
+// 				cout << endl;
+// 			cout << data[i] << "\t";
 		}
-		//GetLeastNumbers_change(data, result, n, k);
-		Quicksort(data, 0, n - 1);
+		GetLeastNumbers_change(data, result, n, k);
+		Quicksort(result, 0, k - 1);
+		//Quicksort(data, 0, n - 1);
+		cout << "最小的" << k << "个数为：" << endl;
 		for (int i = 0; i < k-1; i++)
-			cout << data[i] << " ";
-		cout << data[k - 1] << endl;
+			cout << result[i] << " ";
+		cout << result[k - 1] << endl;
 		delete[] result;
 		delete[] data;
 	}
