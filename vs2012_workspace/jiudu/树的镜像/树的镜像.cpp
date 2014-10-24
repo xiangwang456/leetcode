@@ -12,7 +12,7 @@ void CreateBinary(BinaryNode *node,int n)
 	
 	for (int i = 0; i < n; i++)
 	{
-		scanf("%d", &node[i].value);
+		scanf_s("%d", &node[i].value);
 		node[i].left = NULL;
 		node[i].right = NULL;
 	}
@@ -20,11 +20,11 @@ void CreateBinary(BinaryNode *node,int n)
 	for (int i = 0; i < n; i++)
 	{
 		char c;
-		scanf("%c", &c);
+		scanf_s("%c", &c);
 		if ('d' == c)
 		{
 			int left, right;
-			scanf("%d%d", &left, &right);
+			scanf_s("%d%d", &left, &right);
 			node[i].left = &node[left-1];
 			node[i].right = &node[right-1];
 		}

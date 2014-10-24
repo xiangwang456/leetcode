@@ -14,7 +14,7 @@ int main()
 {
 	int n;//listÔªËØ¸öÊı
 	My_list *ilist=NULL;
-	while (scanf("%d", &n) != EOF)
+	while (scanf_s("%d", &n) != EOF)
 	{
 		int result;
 		int lastIndex;
