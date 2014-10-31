@@ -55,7 +55,7 @@ void PrintSequence(int k)
 int main()
 {
 	int n;
-	while (scanf_s("%d", &n)!=EOF&&n>0)
+	while (scanf_s("%d", &n)!=EOF&&n>=0)
 	{
 		PrintSequence(n);
 	}
