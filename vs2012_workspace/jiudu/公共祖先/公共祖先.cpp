@@ -103,7 +103,7 @@ int main()
 		//PrintTree(root);
 		cin >> val1 >> val2;
 		int result = GetCommonParent(root, val1, val2);
-		if (result)
+		if (result!=0)
 			cout << result << endl;
 		else
 			cout << "My God" << endl;
