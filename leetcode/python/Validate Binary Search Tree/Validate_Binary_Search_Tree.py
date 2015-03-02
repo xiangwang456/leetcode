@@ -15,9 +15,9 @@ class Solution:
             left = True
             right = True
             if root.left is not None:
-                left = self.min_node(root).val < root.val and self.isVaildBST(root.left)
+                left = self.max_node(root.left).val < root.val and self.isValidBST(root.left)
             if root.right is not None:
-                right = self.max_node(root).val > root.val and self.isValidBST(root.right)
+                right = self.min_node(root.right).val > root.val and self.isValidBST(root.right)
             if left and right:
                 return True
             return False
