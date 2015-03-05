@@ -14,3 +14,4 @@ targetver.h
 *.vcxproj.user
 *.opensdf
 *.pyproj
+*.cpy
