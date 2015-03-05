@@ -25,7 +25,7 @@ class Solution:
                 if root.right:
                     queue.append(root.right)
             else:
-                res.append(level[:])
+                res.append(level[:]) 
                 level = []
                 if queue:
                     queue.append(None)
