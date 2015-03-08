@@ -31,6 +31,7 @@ class Solution:
                 for i in range(bottom,top - 1,-1):
                     res[i][left] = val
                     val += 1
+                left += 1
             direct = (direct + 1) % 4
             if top > bottom or left > right:
                 return res
