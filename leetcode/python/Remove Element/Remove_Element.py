@@ -4,22 +4,10 @@ class Solution:
     # @return an integer
     def removeElement(self, A, elem):
         num = 0
-        if not A:
-            return num
-        rail = len(A) - 1
-        while rail >= 0 and A[rail] == elem :
-                rail -= 1
-                A.pop()
         for i,val in enumerate(A):
-            if i > rail:
-                break
-            if val == elem:
-                rail -= 1
-                A.pop()
-            else:
+            if(val != elem):
+                A[num] = val
                 num += 1
-                
-            
         return num
 
 solu = Solution()
