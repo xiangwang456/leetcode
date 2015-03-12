@@ -15,5 +15,7 @@ class Solution:
             nums[i + k] = num2[i]
         nums.reverse()
         print nums
+
+
 solu = Solution()
 solu.rotate([1,2,3,4,5],1)
