@@ -1,0 +1,17 @@
+/Debug/
+/ipch/
+*.sdf
+*.sln
+*.suo
+stdafx.h
+stdafx.cpp
+*.vcxproj
+*.vcxproj.filters
+ReadMe.txt
+targetver.h
+.gitignore.bak
+/*/Debug/
+*.vcxproj.user
+*.opensdf
+*.pyproj
+*.cpy
