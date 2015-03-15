@@ -28,6 +28,7 @@ class Solution:
                 res.append(interval)
                 cur_end = interval.end
                 cur_index += 1
+        return res
 
 from Interval import *
 solu = Solution()
