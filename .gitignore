@@ -6,7 +6,7 @@
 *.user
 *.sln.docstates
 algorithms/*.*
-eclipse_wordspace/*.*
+eclipse_workspace/*.*
 aaa/*.*
 # Build results
 
