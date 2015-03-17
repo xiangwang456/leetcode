@@ -5,7 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
-
+algorithms/*.*
+eclipse_wordspace/*.*
 # Build results
 
 [Dd]ebug/
