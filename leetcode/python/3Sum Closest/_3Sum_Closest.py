@@ -17,5 +17,6 @@ class Solution:
                     l += 1
                 else:
                     r -= 1
-        return s
-                
+        return res
+solu = Solution()
+print solu.threeSumClosest([1,1,1,0], -100)
