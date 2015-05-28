@@ -159,3 +159,6 @@ $RECYCLE.BIN/
 
 .gitattributes
 *.pyc
+
+# c++ eclipse中的DEBUG文件夹
+/leetcode/cpp/*/Debug
