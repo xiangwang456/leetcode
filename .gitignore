@@ -165,4 +165,5 @@ $RECYCLE.BIN/
 
 /leetcode/cpp/*/*.project
 
-/leetcode/cpp/*/Debug
+/leetcode/cpp/*/Debug/*.*
+/leetcode/cpp/*/Debug/
