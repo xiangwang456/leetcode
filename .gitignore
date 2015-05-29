@@ -161,9 +161,9 @@ $RECYCLE.BIN/
 *.pyc
 
 # c++ eclipse中的DEBUG文件夹
-/leetcode/cpp/*/*.cproject
+*.cproject
 
-/leetcode/cpp/*/*.project
+*.project
 
 /leetcode/cpp/*/Debug/*.*
 /leetcode/cpp/*/Debug/
