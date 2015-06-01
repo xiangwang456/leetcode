@@ -6,7 +6,7 @@
 *.user
 *.sln.docstates
 algorithms/*.*
-eclipse_workspace/*.*
+eclipse_wordspace/*.*
 aaa/*.*
 # Build results
 
@@ -159,11 +159,3 @@ $RECYCLE.BIN/
 
 .gitattributes
 *.pyc
-
-# c++ eclipse中的DEBUG文件夹
-*.cproject
-
-*.project
-
-/leetcode/cpp/*/Debug/*.*
-/leetcode/cpp/*/Debug/
