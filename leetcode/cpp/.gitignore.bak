@@ -2,7 +2,3 @@
 *.project
 ## /Debug/*.*
 */Debug/
-*/*.vcxproj.filters
-*/*.vcxproj
-*.sdf
-*.sln
