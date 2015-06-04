@@ -14,6 +14,7 @@ public:
 		restore(res, ip, s);
 		return res;
 	}
+	//递归时记得引用类型
 	void restore(vector<string> &res, string &ip, const string &s, int k = 1, int begin = 0)
 	{
 		//当取到ip段数为4的情况
