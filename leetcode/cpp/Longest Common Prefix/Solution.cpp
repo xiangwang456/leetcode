@@ -12,7 +12,7 @@ public:
 		for (int i = 1; i < strs.size(); i++)
 		{
 			int j = 0;
-			for (; j < len && j < strs[i].length() && strs[i - 1][j] == strs[i][j]; j++);
+			for (; j < len && j < strs[i].length() && strs[0][j] == strs[i][j]; j++);
 			len = j;
 		}
 		return strs[0].substr(0,len);
