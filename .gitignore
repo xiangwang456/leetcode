@@ -5,6 +5,10 @@
 *.suo
 *.user
 *.sln.docstates
+*.sln
+*.idea/*
+python/python.sln
+
 algorithms/*.*
 eclipse_workspace/*.*
 aaa/*.*
@@ -55,6 +59,10 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+*/.idea/*
+*/cmake-build-debug/*
+leetcode/cpp/.idea/*
+leetcode/cpp/cmake-build-debug/*
 
 # Visual Studio profiler
 *.psess
