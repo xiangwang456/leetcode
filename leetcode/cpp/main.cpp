@@ -4,7 +4,7 @@
 
 
 #include <vector>
-#include "reverse_bits.cpp"
+#include "number_of_1_bits.cpp"
 #include <iostream>
 
 
@@ -21,7 +21,7 @@ int main() {
     auto name = "nana say :";
 
 
-    std::cout << name << solu.reverse_bits(1);
+    std::cout << name << solu.hammingWeight(7);
 
 
 }
