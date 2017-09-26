@@ -4,8 +4,9 @@
 
 
 #include <vector>
-#include "number_of_1_bits.cpp"
+#include "RangBitWiseAnd.cpp"
 #include <iostream>
+
 
 
 int main() {
@@ -21,7 +22,7 @@ int main() {
     auto name = "nana say :";
 
 
-    std::cout << name << solu.hammingWeight(7);
+    std::cout << solu.rangeBitWiseRangeAnd(5, 7) << std::endl;
 
 
 }
