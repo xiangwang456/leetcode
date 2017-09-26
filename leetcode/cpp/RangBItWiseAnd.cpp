@@ -8,7 +8,7 @@ class Solution {
 public:
     int rangeBitWiseRangeAnd(int m, int n) {
         while (m < n) {
-            n &= n - 1;  //将n最右边一位变为0
+            n &= n - 1;  //将n最右边的1变为0
         }
         return n;
     }
