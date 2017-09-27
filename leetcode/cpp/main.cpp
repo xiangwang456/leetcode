@@ -19,10 +19,10 @@ int main() {
        nums.push_back(3);
        nums.push_back(2);*/
 
-    auto name = "nana say :";
+    auto name = "nana says :";
 
 
-    std::cout << solu.rangeBitWiseRangeAnd(5, 7) << std::endl;
+    std::cout << name << solu.rangeBitWiseRangeAnd(5, 7) << std::endl;
 
 
 }
