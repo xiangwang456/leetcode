@@ -6,7 +6,7 @@
 
 #include <vector>
 #include <iostream>
-#include "FindErrorNum.cpp"
+#include "MinMoves2.cpp"
 
 
 
@@ -22,11 +22,13 @@ int main() {
 
     auto name = "nana says :";
 
-    vector<int> ans = solu.findErrorNums(nums);
+    std::cout << name << solu.minMoves2(nums);
+
+    /*vector<int> ans = solu.findErrorNums(nums);
     for (const int num : ans) {
         std::cout << name << num << std::endl;
 
-    }
+    }*/
 
 
 
