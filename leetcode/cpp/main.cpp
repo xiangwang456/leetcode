@@ -6,14 +6,14 @@
 
 #include <vector>
 #include <iostream>
-#include "MinMoves2.cpp"
+#include "GetSum.cpp"
 
 
 
 int main() {
     Solution solu;
 
-    vector<int> nums;
+    std::vector<int> nums;
        nums.push_back(1);
        nums.push_back(2);
        nums.push_back(1);
@@ -22,7 +22,7 @@ int main() {
 
     auto name = "nana says :";
 
-    std::cout << name << solu.minMoves2(nums);
+    std::cout << name << solu.getSum(1, 7);
 
     /*vector<int> ans = solu.findErrorNums(nums);
     for (const int num : ans) {
