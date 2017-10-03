@@ -6,8 +6,8 @@
 
 #include <vector>
 #include <iostream>
-#include "GetSum.cpp"
-
+#include "ReadBinaryWatch.cpp"
+#include <string>
 
 
 int main() {
@@ -22,13 +22,13 @@ int main() {
 
     auto name = "nana says :";
 
-    std::cout << name << solu.getSum(1, 7);
+    // std::cout << name << solu.readBinaryWatch(1);
 
-    /*vector<int> ans = solu.findErrorNums(nums);
-    for (const int num : ans) {
+    std::vector<std::string> ans = solu.readBinaryWatch(1);
+    for (const std::string num : ans) {
         std::cout << name << num << std::endl;
 
-    }*/
+    }
 
 
 
