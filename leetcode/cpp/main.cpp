@@ -6,9 +6,10 @@
 
 #include <vector>
 #include <iostream>
-#include "ReadBinaryWatch.cpp"
+#include "FindTheDifference.cpp"
 #include <string>
 
+using namespace std;
 
 int main() {
     Solution solu;
@@ -24,11 +25,13 @@ int main() {
 
     // std::cout << name << solu.readBinaryWatch(1);
 
-    std::vector<std::string> ans = solu.readBinaryWatch(1);
+/*    std::vector<std::string> ans = solu.readBinaryWatch(1);
     for (const std::string num : ans) {
         std::cout << name << num << std::endl;
 
-    }
+    }*/
+
+    cout << solu.findTheDifference("abcd", "abcde");
 
 
 
