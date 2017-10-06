@@ -6,7 +6,7 @@
 
 #include <vector>
 #include <iostream>
-#include "3Sum.cpp"
+#include "4Sum.cpp"
 #include <string>
 
 using namespace std;
@@ -14,19 +14,22 @@ using namespace std;
 int main() {
     Solution solu;
 
-    std::vector<int> nums;
+    vector<int> nums;
     nums.push_back(1);
     nums.push_back(-2);
-    nums.push_back(1);
-    nums.push_back(0);
+    nums.push_back(-3);
+    nums.push_back(-1);
     nums.push_back(2);
+    nums.push_back(0);
+    nums.push_back(3);
+    nums.push_back(0);
     // nums.push_back(2);
 
     auto name = "nana says :";
 
     // std::cout << name << solu.readBinaryWatch(1);
 
-    vector<vector<int>> ans = solu.threeSum(nums);
+    vector<vector<int>> ans = solu.fourSum(nums);
     for (vector<int> zero_arr : ans) {
         cout << name;
         for (int zero_num : zero_arr) {
