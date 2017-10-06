@@ -6,7 +6,7 @@
 
 #include <vector>
 #include <iostream>
-#include "FindTheDifference.cpp"
+#include "3Sum.cpp"
 #include <string>
 
 using namespace std;
@@ -15,23 +15,27 @@ int main() {
     Solution solu;
 
     std::vector<int> nums;
-       nums.push_back(1);
-       nums.push_back(2);
-       nums.push_back(1);
-       nums.push_back(3);
+    nums.push_back(1);
+    nums.push_back(-2);
+    nums.push_back(1);
+    nums.push_back(0);
+    nums.push_back(2);
     // nums.push_back(2);
 
     auto name = "nana says :";
 
     // std::cout << name << solu.readBinaryWatch(1);
 
-/*    std::vector<std::string> ans = solu.readBinaryWatch(1);
-    for (const std::string num : ans) {
-        std::cout << name << num << std::endl;
+    vector<vector<int>> ans = solu.threeSum(nums);
+    for (vector<int> zero_arr : ans) {
+        cout << name;
+        for (int zero_num : zero_arr) {
+            cout << zero_num << " ";
+        }
+        cout << endl;
+    }
 
-    }*/
 
-    cout << solu.findTheDifference("abcd", "abcde");
 
 
 
