@@ -1,7 +1,8 @@
 //
 // Created by zz on 2017/10/7.
-// Time : O
-// Space :
+// Time : O(n)
+// Space : O(1)
+// reference : http://blog.csdn.net/nanjunxiao/article/details/12973173
 
 #include <vector>
 

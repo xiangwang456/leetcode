@@ -22,22 +22,29 @@ int main() {
     nums.push_back(2);
     nums.push_back(0);
     nums.push_back(3);*/
-    nums.push_back(0);
+    nums.push_back(4);
+    nums.push_back(1);
+    nums.push_back(7);
+    nums.push_back(3);
     // nums.push_back(2);
 
     auto name = "nana says :";
-    cout << name << solu.firstMissingPositive(nums);
+//    cout << name << solu.firstMissingPositive(nums);
 
     // std::cout << name << solu.readBinaryWatch(1);
 
-    /*vector<vector<int>> ans = solu.fourSum(nums);
-    for (vector<int> zero_arr : ans) {
+    //vector<vector<int>> ans = solu.fourSum(nums);
+
+    next_permutation(nums.begin(), nums.end());
+
+    for (int zero_arr : nums) {
         cout << name;
-        for (int zero_num : zero_arr) {
-            cout << zero_num << " ";
-        }
+        cout << zero_arr;
+        /* for (int zero_num : zero_arr) {
+             cout << zero_num << " ";
+         }*/
         cout << endl;
-    }*/
+    }
 
 
 
