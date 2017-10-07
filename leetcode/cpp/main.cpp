@@ -6,8 +6,8 @@
 
 #include <vector>
 #include <iostream>
-#include "4Sum.cpp"
 #include <string>
+#include "FirstMissingPositive.cpp"
 
 using namespace std;
 
@@ -15,28 +15,29 @@ int main() {
     Solution solu;
 
     vector<int> nums;
-    nums.push_back(1);
+/*    nums.push_back(1);
     nums.push_back(-2);
     nums.push_back(-3);
     nums.push_back(-1);
     nums.push_back(2);
     nums.push_back(0);
-    nums.push_back(3);
+    nums.push_back(3);*/
     nums.push_back(0);
     // nums.push_back(2);
 
     auto name = "nana says :";
+    cout << name << solu.firstMissingPositive(nums);
 
     // std::cout << name << solu.readBinaryWatch(1);
 
-    vector<vector<int>> ans = solu.fourSum(nums);
+    /*vector<vector<int>> ans = solu.fourSum(nums);
     for (vector<int> zero_arr : ans) {
         cout << name;
         for (int zero_num : zero_arr) {
             cout << zero_num << " ";
         }
         cout << endl;
-    }
+    }*/
 
 
 
