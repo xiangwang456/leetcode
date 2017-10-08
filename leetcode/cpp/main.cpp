@@ -7,7 +7,7 @@
 #include <vector>
 #include <iostream>
 #include <string>
-#include "PlusOne.cpp"
+#include "SetMatrixZeroes.cpp"
 
 using namespace std;
 
@@ -15,7 +15,16 @@ int main() {
     Solution solu;
 
     vector<int> nums;
-/*    nums.push_back(1);
+    //vector<vector<int>> twoLayer({{1}});
+    vector<vector<int>> twoLayer({
+                                         {0, 0, 0, 5},
+                                         {4, 3, 1, 4},
+                                         {0, 1, 1, 4},
+                                         {1, 2, 1, 3},
+                                         {0, 0, 1, 1}
+                                 });
+/*
+ * nums.push_back(1);
     nums.push_back(-2);
     nums.push_back(-3);
     nums.push_back(-1);
@@ -35,18 +44,19 @@ int main() {
 
     next_permutation(nums.begin(), nums.end());
 
-    vector<int> ans = solu.plusOne(nums);
+    // vector<int> ans = solu.plusOne(nums);
 
-    for (int zero_arr : ans) {
+
+
+
+    solu.setZeroes(twoLayer);
+
+    for (vector<int> zero_arr : twoLayer) {
         cout << name;
-        cout << zero_arr;
-        /* for (int zero_num : zero_arr) {
+        for (int zero_num : zero_arr) {
              cout << zero_num << " ";
-         }*/
+        }
         cout << endl;
     }
-
-
-
 
 }
