@@ -1,6 +1,6 @@
 //
 // Created by zz on 2017/10/8.
-// Time : O(n2)
+// Time : O(n)
 // Space : O(1)
 
 #include <vector>
