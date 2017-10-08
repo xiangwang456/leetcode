@@ -7,7 +7,7 @@
 #include <vector>
 #include <iostream>
 #include <string>
-#include "FirstMissingPositive.cpp"
+#include "PlusOne.cpp"
 
 using namespace std;
 
@@ -22,10 +22,8 @@ int main() {
     nums.push_back(2);
     nums.push_back(0);
     nums.push_back(3);*/
-    nums.push_back(4);
-    nums.push_back(1);
-    nums.push_back(7);
-    nums.push_back(3);
+    nums.push_back(9);
+
     // nums.push_back(2);
 
     auto name = "nana says :";
@@ -37,7 +35,9 @@ int main() {
 
     next_permutation(nums.begin(), nums.end());
 
-    for (int zero_arr : nums) {
+    vector<int> ans = solu.plusOne(nums);
+
+    for (int zero_arr : ans) {
         cout << name;
         cout << zero_arr;
         /* for (int zero_num : zero_arr) {
@@ -45,7 +45,6 @@ int main() {
          }*/
         cout << endl;
     }
-
 
 
 
