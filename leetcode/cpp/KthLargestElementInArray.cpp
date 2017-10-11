@@ -4,6 +4,7 @@
 // Space: O(1)
 
 #include <vector>
+#include <functional>
 
 using namespace std;
 
