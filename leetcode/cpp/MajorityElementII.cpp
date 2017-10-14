@@ -3,6 +3,8 @@
 // Time:  O(n)
 // Space: O(1)
 
+//和 Majority Element  算法类似，这样的数顶多出现两次，所以找出出现最多的两个数，再看这两个数的次数是否大雨n/3
+
 #include <vector>
 #include <string>
 
