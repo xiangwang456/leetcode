@@ -57,6 +57,7 @@ int main() {
              cout << zero_num << " ";
         }
         cout << endl;
+        cout << numeric_limits<int>::min();
     }
 
 }
