@@ -20,6 +20,7 @@ public:
             } else if (digits[i] < digits[max_idx]) {
                 left = i;
                 right = max_idx;
+
             }
         }
         swap(digits[left], digits[right]);
