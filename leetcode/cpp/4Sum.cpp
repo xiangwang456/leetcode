@@ -5,6 +5,7 @@
 //Time : O(n^2)
 //Space: O(1)
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
