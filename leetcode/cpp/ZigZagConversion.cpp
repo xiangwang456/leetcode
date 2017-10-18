@@ -24,6 +24,7 @@ public:
                     zigzag.push_back(s[j + step - 2 * i]);
 
 
+
                 }
             }
         }
