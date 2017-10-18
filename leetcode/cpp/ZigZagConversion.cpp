@@ -23,6 +23,7 @@ public:
                     j + step - 2 * i < s.length()) {
                     zigzag.push_back(s[j + step - 2 * i]);
 
+
                 }
             }
         }
