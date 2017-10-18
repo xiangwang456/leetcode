@@ -22,6 +22,7 @@ public:
                 if (0 < i && i < numRows - 1 &&
                     j + step - 2 * i < s.length()) {
                     zigzag.push_back(s[j + step - 2 * i]);
+
                 }
             }
         }
