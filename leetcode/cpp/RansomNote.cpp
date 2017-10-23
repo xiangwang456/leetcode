@@ -1,7 +1,7 @@
 //
 // Created by zhangqi on 2017/10/23.
 // Time:  O(n)
-// Space: O(n)
+// Space: O(1)
 
 #include <string>
 #include <vector>
