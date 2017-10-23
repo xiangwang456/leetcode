@@ -5,10 +5,11 @@
 
 #include <string>
 #include <algorithm>
+#include <sstream>
 
 using namespace std;
 
-class Solution {
+class Solution1 {
 public:
     void reverseWords(string &s) {
         // Reverse the whole string first.
@@ -29,5 +30,35 @@ public:
            }
         }
         s.resize(storeIndex);
+    }
+};
+
+
+class Solution2 {
+public:
+    void reverseWords(string &s) {
+        istringstream is(s);
+        string temp;
+        is >> s;
+        while(is >> temp){
+            s = temp + " " + s;
+        }
+        if(!s.empty() && s[0] == ' '){
+            s = "";
+        }
+    }
+};
+
+
+class Solution3 {
+public:
+    void reverseWords(string &s) {
+        istringstream is(s);
+        string temp = "";
+        s = "";
+        while(getline(is,temp,' ')){
+            if(temp.empty()) continue;
+            s = s.empty() ? temp :  temp + ' ' + s;
+        }
     }
 };
