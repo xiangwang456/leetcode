@@ -9,13 +9,13 @@
 #include <string>
 #include <limits>
 #include <algorithm>
-#include "countBinarySubstrings.cpp"
+#include "NextClosestTime.cpp"
 
 using namespace std;
 
 int main() {
     Solution solu ;
-    cout << solu.countBinarySubstrings("00110") <<endl;
+    cout << solu.nextClosestTime("00:00") <<endl;
 
 
 }
