@@ -9,7 +9,7 @@
 #include <string>
 #include <limits>
 #include <algorithm>
-#include "SetMatrixZeroes.cpp"
+#include "AdditiveNumber.cpp"
 
 using namespace std;
 
@@ -17,6 +17,7 @@ int main() {
 
     std::string str = "Hello";
     std::vector<std::string> v;
+
 
     // uses the push_back(const T&) overload, which means
     // we'll incur the cost of copying str
@@ -33,8 +34,12 @@ int main() {
     std::cout << "The contents of the vector are \"" << v[0]
               << "\", \"" << v[1] << "\"\n";
 
+
+    cout << "==================="<< cout<< sizeof(int) << "================" << endl;
     Solution solu;
 
+
+    cout << "==================="<< solu.isAdditiveNumber("101") << "================" << endl;
     vector<int> nums;
     //vector<vector<int>> twoLayer({{1}});
     vector<vector<int>> twoLayer({
@@ -70,7 +75,7 @@ int main() {
 
 
 
-    solu.setZeroes(twoLayer);
+    //solu.setZeroes(twoLayer);
 
     for (vector<int> zero_arr : twoLayer) {
         cout << name;
