@@ -51,7 +51,8 @@ private:
 class Solution2 {
 public:
     string longestPalindrome(string s) {
-       int dp[s.size()][s.size()] = {0};
+
+        int dp[s.size()][s.size()];
         int left = 0, len = 0, right = 0;
         for(int i = 0; i < s.size(); i++){
             dp[i][i] = 1;

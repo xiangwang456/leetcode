@@ -7,6 +7,7 @@
 #include <string>
 #include <limits>
 #include <algorithm>
+#include <functional>
 
 using namespace std;
 

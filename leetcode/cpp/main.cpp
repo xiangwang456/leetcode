@@ -9,13 +9,15 @@
 #include <string>
 #include <limits>
 #include <algorithm>
-#include "NextClosestTime.cpp"
+#include "ReplaceWords.cpp"
 
 using namespace std;
 
 int main() {
     Solution solu ;
-    cout << solu.nextClosestTime("00:00") <<endl;
+    vector<string> dict = {"cat", "bat", "rat"};
+    string s = "the cattle was rattled by the battery";
+    cout << solu.replaceWords(dict, s) << endl;
 
 
 }
