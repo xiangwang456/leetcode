@@ -4,6 +4,7 @@
 // Space: O(1)
 
 #include <string>
+#include <algorithm>
 
 using namespace std;
 
