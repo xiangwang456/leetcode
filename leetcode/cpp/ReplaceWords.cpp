@@ -15,45 +15,48 @@ using namespace std;
 class Solution {
 public:
     string replaceWords(vector<string> &dict, string sentence) {
-        TrieNode trie;
-        string result;
-        for (const auto &s : dict) {
-            trie.Insert(s);
+        TrieNode node;
+        for(string &word : dict){
+            node.Insert(word);
         }
-        auto curr = &trie;
-        for (const auto &c : sentence) {
-            if (c == ' ' || !curr || !curr->isString) {
-                result += c;
+        string ans;
+        TrieNode *curr = &node;
+        //这个是先把字符加进去，再移动指针，所以当指针指向的节点的isString == true 时已经把改元素加进去了
+        // 不加的情况：curr 不为空且curr->isString == true
+
+        for(char ch : sentence){
+            if(ch == ' ' || !curr || curr->isString == false ){
+                ans += ch;
             }
-            if (c == ' ') {
-                curr = &trie;
-            } else if (curr && !curr->isString) {
-                curr = curr->leaves[c];
+            if(ch == ' '){
+                curr = &node;
+            }else if(curr && curr->isString == false){
+                curr = curr->leaves[ch];
             }
         }
-        return result;
+        return ans;
     }
 
 private:
-    struct TrieNode {
+    struct TrieNode{
         bool isString = false;
         unordered_map<char, TrieNode *> leaves;
 
-        void Insert(const string &s) {
+        void Insert(string str){
             auto *p = this;
-            for (const auto &c : s) {
-                if (p->leaves.find(c) == p->leaves.cend()) {
-                    p->leaves[c] = new TrieNode;
+            for(char ch : str){
+                if(p->leaves.find(ch) == leaves.cend() ){
+                    p->leaves[ch] = new TrieNode;
                 }
-                p = p->leaves[c];
+                p = p->leaves[ch];
             }
             p->isString = true;
         }
 
-        ~TrieNode() {
-            for (auto &kv : leaves) {
-                if (kv.second) {
-                    delete kv.second;
+        ~TrieNode(){
+            for(auto &leaf : leaves){
+                if(leaf.second){
+                    delete leaf.second;
                 }
             }
         }
