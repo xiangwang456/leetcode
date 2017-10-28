@@ -4,9 +4,15 @@
 // Space: O(1)
 
 
+struct ListNode {
+    int val;
+    ListNode *next;
+
+    ListNode(int x) : val(x), next(nullptr) {}
+};
+
 class Solution {
 public:
-    ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
         ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
             ListNode dummy{0};
             ListNode *curr = &dummy;
@@ -28,14 +34,5 @@ public:
             curr->next = l1 ? l1 : l2;
             return dummy.next;
         }
-    }
-
-
-    struct ListNode {
-        int val;
-        ListNode *next;
-
-        ListNode(int x) : val(x), next(nullptr) {}
     };
 
-};
