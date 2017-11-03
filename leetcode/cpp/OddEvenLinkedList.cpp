@@ -25,7 +25,7 @@ public:
             oddTail->next = curr->next;
 
             oddTail = oddTail->next;
-            //保证当前结点的下个结点还是奇数结点
+            //此时奇尾结点下一个结点为偶结点
             curr->next = oddTail->next;
             oddTail->next = evenHead;
         }
