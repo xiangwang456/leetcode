@@ -15,6 +15,7 @@ public:
         string curr;
         int n = 0;
         stack<int> nums;
+
         stack<string> strs;
         for (char ch : s) {
             if (isdigit(ch)) {
