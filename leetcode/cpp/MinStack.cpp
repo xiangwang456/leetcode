@@ -5,7 +5,6 @@
 // Space: O(1)
 
 #include <stack>
-#include <c++/cstdint>
 
 using namespace std;
 
@@ -26,7 +25,7 @@ public:
     }
 
     void pop() {
-        int64_t diff = elements_.top();
+        auto diff = elements_.top();
         elements_.pop();
         if(diff < 0){
             stack_min_ -= diff;
@@ -35,7 +34,7 @@ public:
 
     int top() {
         if(elements_.top() > 0){
-            return elements_.top() + min ;
+            return elements_.top() + stack_min_;
         }else{
             return stack_min_;
         }
