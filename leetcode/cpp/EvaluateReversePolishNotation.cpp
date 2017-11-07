@@ -18,13 +18,14 @@ public:
         }
 
         stack<int> nums;
-       for(string token : tokens){
+
+        for (string token : tokens) {
            if(!isOperator(token)){
                nums.push(atoi(token.c_str()));
            } else{
-               int num1 = nums.top();
-               nums.pop();
                int num2 = nums.top();
+               nums.pop();
+               int num1 = nums.top();
                nums.pop();
                if(token == "+"){
                    nums.push(num1 + num2);
@@ -44,6 +45,6 @@ public:
 
 private:
     bool isOperator(string str){
-        return str.size() == 1 && string("+_*/").find(str) != string::npos;
+        return str.size() == 1 && string("+-*/").find(str) != string::npos;
     }
 };
