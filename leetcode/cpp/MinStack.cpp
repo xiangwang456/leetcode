@@ -5,6 +5,7 @@
 // Space: O(1)
 
 #include <stack>
+#include <stdint-gcc.h>
 
 using namespace std;
 
