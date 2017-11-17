@@ -1,4 +1,6 @@
-my leetcode answers. 
+my leetcode answers.  
+
+updating...
 
 ## LinkedList
 
@@ -11,3 +13,8 @@ my leetcode answers.
 
 
 
+## Tree
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/RangeSumQuery.cpp)|_ctor :O(n)  ,update : O(logn) , sum : O(logn)_|_O(n)_|medium||线段树|
+|24|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/)|_O(n)_|_O(1)_|easy|||

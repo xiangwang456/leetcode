@@ -1,6 +1,7 @@
 //
 // Created by zhangqi on 2017/11/17.
-//ctor :O(n)  ,update : O(logn) , sum : O(logn)
+//time : ctor :O(n)  ,update : O(logn) , sum : O(logn)
+// space : O(n)
 
 #include <vector>
 
