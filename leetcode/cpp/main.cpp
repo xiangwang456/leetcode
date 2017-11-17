@@ -11,6 +11,7 @@
 #include <algorithm>
 #include "TreeNode.h"
 #include "AddandSearchWord.cpp"
+#include "RangeSumQuery.cpp"
 
 using namespace std;
 
@@ -39,5 +40,11 @@ int main() {
     words.addWord("adder");
     words.addWord("addee");
 
-    cout << words.search("r.n") << endl;
+    //cout << words.search("r.n") << endl;
+    vector<int> nums({1,3,5});
+    vector<int> nums1({{{}}});
+
+    NumArray na1(nums1);
+    na1.sumRange(0,0);
+
 }
