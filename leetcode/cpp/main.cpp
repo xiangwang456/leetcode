@@ -10,8 +10,7 @@
 #include <limits>
 #include <algorithm>
 #include "TreeNode.h"
-#include "AddandSearchWord.cpp"
-#include "RangeSumQuery.cpp"
+#include "RedundantConnection.cpp"
 
 using namespace std;
 
@@ -28,7 +27,7 @@ int main() {
 
     /*for(int num : solu.inorderTraversal(&node1)){
         cout << num;
-    }*/
+    }
 
     WordDictionary words ;
     words.addWord("ran");
@@ -41,10 +40,25 @@ int main() {
     words.addWord("addee");
 
     //cout << words.search("r.n") << endl;
-    vector<int> nums({1,3,5});
-    vector<int> nums1({{{}}});
+    vector<int> nums1({1,2});
+    vector<int> nums2({1,3});
+    vector<int> nums3({2,3});
 
     NumArray na1(nums1);
     na1.sumRange(0,0);
+
+     */
+
+    vector<int> num1({1,2});
+    vector<int> num2({1,3});
+    vector<int> num3({2,3});
+    vector<vector<int>> nums;
+    nums.push_back(num1);
+    nums.push_back(num2);
+    nums.push_back(num3);
+
+    Solution solu;
+    solu.findRedundantConnection(nums);
+
 
 }
