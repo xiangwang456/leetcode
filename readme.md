@@ -19,4 +19,11 @@ updating...
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/RangeSumQuery.cpp)|_ctor :O(n)  ,update : O(logn) , sum : O(logn)_|_O(n)_|medium||线段树|
 |24|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LongestUnivaluePath.cpp)|_O(n)_|_O(h)_|easy||dfs|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MaximumBinaryTree.cpp)|_O(n)_|_O(n)_|medium|||
-|24|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindDuplicateSubtrees.cpp)|_O(n)_|_O(n)_|medium|||
+|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/RedundantConnection.cpp)|_O(n)_|_O(n)_|medium|||
+
+## Hash Table
+
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TwoSum.cpp)|_O(n)_|_O(n)_|easy|||
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|easy|||
