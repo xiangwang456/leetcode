@@ -23,10 +23,13 @@ updating...
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/RedundantConnection.cpp)|_O(n)_|_O(n)_|medium|||
 
 ## Hash Table
-
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TwoSum.cpp)|_O(n)_|_O(n)_|easy|||
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LongestSubstringWithoutRepeatingCharacters.cpp)|_O(n)_|_O(n)_|medium|||
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ValidSudoku.cpp)|_O(n^2)_|_O(n)_|medium|||
+|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LongestSubstringwithAtMostTwoDistinctCharacters.cpp)|_O(n)_|_O(n)_|hard|||
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
+	Longest Substring with At Most Two Distinct Characters
