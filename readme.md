@@ -29,8 +29,10 @@ updating...
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LongestSubstringWithoutRepeatingCharacters.cpp)|_O(n)_|_O(n)_|medium|||
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ValidSudoku.cpp)|_O(n^2)_|_O(n)_|medium|||
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LongestSubstringwithAtMostTwoDistinctCharacters.cpp)|_O(n)_|_O(n)_|hard|||
-|1|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/HappyNumber.cpp)|_O(k)_|_O(k)_|easy|||
-
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/HappyNumber.cpp)|_O(k)_|_O(k)_|easy|||
+|323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/NumberofConnectedComponentsinanUndirectedGraph.cpp)|_O(n)_|_O(n)_|medium|||
+|356|[Line Reflection](https://leetcode.com/problems/line-reflection/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LineReflection.cpp)|_O(n)_|_O(n)_|medium|||
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
-	Longest Substring with At Most Two Distinct Characters
+	https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+	Line Reflection
