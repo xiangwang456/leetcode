@@ -10,7 +10,7 @@
 #include <limits>
 #include <algorithm>
 #include "TreeNode.h"
-#include "SentenceSimilarity.cpp"
+#include "AccountsMerge.cpp"
 
 using namespace std;
 
@@ -65,7 +65,14 @@ int main() {
     pairs.push_back(make_pair("great","fine"));
     pairs.push_back(make_pair("acting","drama"));
     pairs.push_back(make_pair("skills","talent"));
-    cout << solu.areSentencesSimilar(words1, words2, pairs);
+
+    vector<vector<string>> a = {
+            {"John","johnsmith@mail.com","john_newyork@mail.com"},
+            {"John","johnsmith@mail.com","john00@mail.com"},
+            {"Mary","mary@mail.com"},
+            {"John","johnnybravo@mail.com"}};
+
+    solu.accountsMerge(a);
 
 
 }
