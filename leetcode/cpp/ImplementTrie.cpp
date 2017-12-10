@@ -49,7 +49,7 @@ private:
             if(curr->leaves.count(ch)){
                 curr = curr->leaves[ch];
             } else{
-                return  false;
+                return nullptr;
             }
         }
         return curr;

@@ -37,6 +37,7 @@ updating...
 |734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SentenceSimilarity.cpp)|_O(n)_|_O(n)_|easy|||
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/AccountsMerge.cpp)|_O(n)_|_O(n)_|medium||1. 并查集 2. email-name，email-id，set[id]-emails, name-emails|
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BrickWall.cpp)|_O(n)_|_O(n)_|medium||记录每一行右边界出现的次数，从长度减去它就是最少要穿过的数目|
+|204|[Count Primes](https://leetcode.com/problems/count-primes/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CountPrimes.cpp)|_O(n)_|_O(n)_|easy||埃拉托斯特尼筛选法|
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||

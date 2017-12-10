@@ -3,8 +3,8 @@
 //
 
 #include <vector>
-#include <c++/regex>
-#include <c++/queue>
+#include <queue>
+
 
 using  namespace std;
 
