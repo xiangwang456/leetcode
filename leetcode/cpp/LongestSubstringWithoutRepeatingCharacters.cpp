@@ -6,28 +6,22 @@
 #include <vector>
 #include <string>
 #include <c++/unordered_map>
+#include <c++/set>
+#include <c++/map>
 
 using namespace std;
 
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int> currence;
-        size_t startIndex = 0, ans = 0;
-        for(int i = 0; i < s.size(); i++){
-            const auto it = currence.find(s[i]);
-            if( it == currence.cend()){
-                currence.emplace(s[i], i);
-            } else{
-                if(it->second >= startIndex){
-                    ans = max(ans, i - startIndex);
-                    startIndex = it->second + 1;
-                }
-                it->second = i;
-            }
-        }
-        return max(ans, s.size() - startIndex);
+    bool areSentencesSimilar(vector<string>& words1, vector<string>& words2, vector<pair<string, string>> pairs) {
+        if (words1.size() != words2.size()) return false;
+        map<string, set<string>> map;
+        for (pair<string, string> p : pairs)
+            map[p.first].insert(p.second);
 
+        for (int i = 0; i < words1.size(); i++)
+            if (words1[i] != words2[i] && !map[words1[i]].count(words2[i]) && !map[words2[i]].count(words1[i]))
+                return false;
+        return true;
     }
 };
-
