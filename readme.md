@@ -55,7 +55,10 @@ updating...
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MergeSortedArray.cpp)|_O(n)_|_O(1)_|easy||从后向前插入|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/InsertionSortList.cpp)|_O(n)_|_O(n)_|medium||找到要插入位置的节点，再插入|
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SortColors.cpp)|_O(n)_|_O(1)_|medium||把数组分为三个部分，0 ，1，2 |
+|88|[Merge Sorted Array]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MergeSortedArray.cpp)|_O(n)_|_O(1)_|easy||从后向前遍历两个数组|
+|148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SortList.cpp)|_O(nlgn)_|_O(lgn)_|medium||先把两个链表拆成两个链表，递归两个指针合并两链表|
+
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
