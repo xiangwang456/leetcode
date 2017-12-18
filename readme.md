@@ -44,6 +44,11 @@ updating...
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/RomantoInteger.cpp)|_O(n)_|_O(1)_|easy|||
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/IntegertoRoman.cpp)|_O(n)_|_O(1)_|medium|||
+|400|[Nth Digit](https://leetcode.com/problems/nth-digit/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/NthDigit.cpp)|_O(lgn)_|_O(1)_|easy|||
+
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||找数的规律，分析第n个数落在位数是几位的区间里，再找落在那个数的哪个位置上|
+
 
 ## Sort
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
