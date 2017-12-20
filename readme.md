@@ -59,7 +59,10 @@ updating...
 |88|[Merge Sorted Array]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MergeSortedArray.cpp)|_O(n)_|_O(1)_|easy||从后向前遍历两个数组|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SortList.cpp)|_O(nlgn)_|_O(lgn)_|medium||先把两个链表拆成两个链表，递归两个指针合并两链表|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(nlogn)_|_O(1)_|medium||通过将两个数字组合成一个字符串形式对数字按照askii进行排序，再将字符串依次组合成一个数字|
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LargestNumber.cpp)|_O(n)_|_O(n)_|medium|||
+|274|[H-Index](https://leetcode.com/problems/h-index/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/HIndex.cpp)|_O(n)_|_O(n)_|medium||1、排序，找论文数大于引用数的 2、用一个数组记录引用数是0到n（大于n的记为n）之间被引用的文章有多少，再进行累加|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TopKFrequentElements.cpp)|_O(nlogn)_|_O(n)_|medium||按照元素的数量分成若干个捅，从后向前从捅中取元素|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
+Top K Frequent Elements
