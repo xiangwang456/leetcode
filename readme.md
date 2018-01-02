@@ -73,4 +73,11 @@ updating...
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Remove NthNodeFromEndofList.cpp)|_O(n)_|_O(1)_|easy||快慢指针，快指针先走n步，再同时开始走|
+|86|[Partition List](https://leetcode.com/problems/partition-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PartitionList.cpp)|_O(n)_|_O(1)_|medium||双指针。用两个指针分别表示比x大和小的两个链表，最后将小表的尾指向大表的头|
+|141|[Linked List Cycle]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LinkedListCycle.cpp)|_O(n)_|_O(1)_|easy||快慢指针|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
+
 
