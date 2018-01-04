@@ -62,7 +62,7 @@ updating...
 |274|[H-Index](https://leetcode.com/problems/h-index/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/HIndex.cpp)|_O(n)_|_O(n)_|medium||1、排序，找论文数大于引用数的 2、用一个数组记录引用数是0到n（大于n的记为n）之间被引用的文章有多少，再进行累加|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TopKFrequentElements.cpp)|_O(nlogn)_|_O(n)_|medium||按照元素的数量分成若干个捅，从后向前从捅中取元素|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SortCharactersByFrequency.cpp)|_O(n)_|_O(n)_|medium||与上题类似|
-|692|[Top K Frequent Words](Top K Frequent Words)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TopKFrequentWords.cpp)|_O(nlgn)_|_O(n)_|medium|||
+|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TopKFrequentWords.cpp)|_O(nlgn)_|_O(n)_|medium|||
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
@@ -78,7 +78,7 @@ updating...
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LinkedListCycleII.cpp)|_O(n)_|_O(n)_|medium||fast在相遇点再走k步到达循环链表的起点，与从头开始走k步同一个位置|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReorderList.cpp)|_O(n)_|_O(1)_|medium||1、快慢指针分拆链表 2、后半部分reverse 3、再合并两个链表|
 
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MoveZeroes.cpp)|_O(n)_|_O(1)_|easy||从前向后遍历，设置一个标记元素，如果不是零则和后面的元素交换并自增标记元素，是零则不自增，这样零的会跑到最后|
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
