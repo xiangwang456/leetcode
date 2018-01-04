@@ -77,9 +77,9 @@ updating...
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LinkedListCycle.cpp)|_O(n)_|_O(1)_|easy||快慢指针|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LinkedListCycleII.cpp)|_O(n)_|_O(n)_|medium||fast在相遇点再走k步到达循环链表的起点，与从头开始走k步同一个位置|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReorderList.cpp)|_O(n)_|_O(1)_|medium||1、快慢指针分拆链表 2、后半部分reverse 3、再合并两个链表|
-
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MoveZeroes.cpp)|_O(n)_|_O(1)_|easy||从前向后遍历，设置一个标记元素，如果不是零则和后面的元素交换并自增标记元素，是零则不自增，这样零的会跑到最后|
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindtheDuplicateNumber.cpp)|_O(n)_|_O(n)_|medium|||
+
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
