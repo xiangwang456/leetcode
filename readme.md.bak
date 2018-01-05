@@ -77,6 +77,9 @@ updating...
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MoveZeroes.cpp)|_O(n)_|_O(1)_|easy||从前向后遍历，设置一个标记元素，如果不是零则和后面的元素交换并自增标记元素，是零则不自增，这样零的会跑到最后|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindtheDuplicateNumber.cpp)|_O(n)_|_O(n)_|medium|||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReverseString.cpp)|_O(n)_|_O(1)_|easy||前指针和后指针不断交换直到相遇|
+|345|[Reverse Vowels of a String]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReverseVowelsofaString.cpp)|_O(n)_|_O(1)_|easy||细节:aeiou字符串弄成const string 2、比对时都用小写 |
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/IntersectionofTwoArrays.cpp)|_O(n + m)_|_O(n + m)_|easy|||
+
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 

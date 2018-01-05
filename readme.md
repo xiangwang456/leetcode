@@ -78,7 +78,7 @@ updating...
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindtheDuplicateNumber.cpp)|_O(n)_|_O(n)_|medium|||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReverseString.cpp)|_O(n)_|_O(1)_|easy||前指针和后指针不断交换直到相遇|
 |345|[Reverse Vowels of a String]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReverseVowelsofaString.cpp)|_O(n)_|_O(1)_|easy||细节:aeiou字符串弄成const string 2、比对时都用小写 |
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/IntersectionofTwoArrays.cpp)|_O(n + m)_|_O(n + m)_|easy||1、哈希法：将第一个数组放入set中，遍历第二个数据 2、对两个数组排序再同事比对|
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
