@@ -90,8 +90,11 @@ updating...
 |104|[Maximum Depth of Binary Tree]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MaximumDepthofBinaryTree.cpp)|_O(n)_|_O(n)_|easy||注意停止条件|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BalancedBinaryTree.cpp)|_O(n)_|_O(h)_|easy||左子树和右子树高度是否相差1|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MinimumDepthofBinaryTree.cpp)|_O(n)_|_O(h)_|easy|||
+|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SumRoottoLeafNumbers.cpp)|_O(n)_|_O(h)_|medium||使用辅助函数，用0作为和 。停止条件：如果是空则return 0 ，如果左子树和右子树都不存在，则返回当前结点的值 ，其他情况递归左子树和右子树。|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
-
+Sum Root to Leaf Numbers
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
