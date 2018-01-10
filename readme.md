@@ -93,7 +93,9 @@ updating...
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SumRoottoLeafNumbers.cpp)|_O(n)_|_O(h)_|medium||使用辅助函数，用0作为和 。停止条件：如果是空则return 0 ，如果左子树和右子树都不存在，则返回当前结点的值 ，其他情况递归左子树和右子树。|
 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeLongestConsecutiveSequence.cpp)|_O(n)_|_O(h)_|medium|||
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TrimaBinarySearchTree.cpp)|_O(n)_|_O(h)_|easy||如果当前结点值小于L或大于R，则递归返回右子树或左子树，再分别递归左子树和右子树|
-|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConvertSortedArraytoBinarySearchTree.cpp)|_O(n)_|_O(n)_|easy||二分法构建BST|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConvertSortedArraytoBinarySearchTree.cpp)|_O(n)_|_O(h)_|easy||二分法构建BST|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ValidateBinarySearchTree.cpp)|_O(n)_|_O(h)_|medium||递归，设置上下边界的值，注意边界值设置成numeric_limits<long>::max() min() |
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
