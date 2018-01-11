@@ -27,7 +27,7 @@ public:
 
     ListNode *findInsertPosition(ListNode *head, int x) {
         ListNode *prev = nullptr;
-        for (auto curr = head; curr && curr->val <= x) {
+        for (auto curr = head; curr && curr->val <= x;) {
             prev = curr;
             curr = curr->next;
         }

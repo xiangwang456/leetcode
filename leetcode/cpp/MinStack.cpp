@@ -18,7 +18,7 @@ public:
             stack_min_  = number ;
         } else{
             //存该元素和除该元素外和最小值的查
-            elements_.push(static_cast<int64_t>(number ) - stack_min_);
+            elements_.push(static_cast<int>(number ) - stack_min_);
             if(number  < stack_min_){
                 stack_min_ = number ;
             }
@@ -46,6 +46,6 @@ public:
     }
 
 private:
-    stack<int64_t> elements_;
+    stack<int> elements_;
     int stack_min_;
 };
