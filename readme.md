@@ -96,6 +96,9 @@ updating...
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConvertSortedArraytoBinarySearchTree.cpp)|_O(n)_|_O(h)_|easy||二分法构建BST|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ValidateBinarySearchTree.cpp)|_O(n)_|_O(h)_|medium||递归，设置上下边界的值，注意边界值设置成numeric_limits<long>::max() min() |
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConstructBinaryTreefromPreorderandInorderTraversal.cpp)|_O(n)_|_O(n)_|medium||构造一个map记录中序中的序号，从该序号以前是左子树，以后是右子树|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConstructBinaryTreefromInorderandPostorderTraversal.cpp)|_O(n)_|_O(n)_|medium||同上构造一个map，递归创建左子树和右子树|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
