@@ -101,8 +101,9 @@ updating...
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FlattenBinaryTreetoLinkedList.cpp)|_O(n)_|_O(n)_|medium||将左子树放在右子树的位置上，并将原来的右子树放在新右子树的右子树|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SumofLeftLeaves.cpp)|_O(n)_|_O(h)_|easy||构造辅助函数，加入适否是左子树标记。如果叶子结点（左右子树为空），如果是左子树，则返回叶子的值，否则返回0，递归左子树和右子树|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSumIII.cpp)|_O(n^2)_|_O(h)_|easy||辅助函数记录当前的值，再去遍历左子树和右子树|
+|671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SecondMinimumNodeInaBinaryTree.cpp)|_O(n^2)_|_O(n)_|medium||使用辅助函数，以及set存储（里面元素是从小到大排列的）当前节点的值，如果set>2则删除末尾的结点，便利左子树和右子树。则此时set保存了所有节点中最小的两个值，取后面的那个即可|
 
-
+Second Minimum Node In a Binary Tree
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium|||
 
 
