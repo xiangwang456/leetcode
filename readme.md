@@ -103,6 +103,13 @@ updating...
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSumIII.cpp)|_O(n^2)_|_O(h)_|easy||辅助函数记录当前的值，再去遍历左子树和右子树|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SecondMinimumNodeInaBinaryTree.cpp)|_O(n^2)_|_O(n)_|medium||使用辅助函数，以及set存储（里面元素是从小到大排列的）当前节点的值，如果set>2则删除末尾的结点，便利左子树和右子树。则此时set保存了所有节点中最小的两个值，取后面的那个即可|
 
+
+## Binary Search
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SearchforaRange.cpp)|_O(logn)_|_O(1)_|medium|||
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium||二分法|
+
 Second Minimum Node In a Binary Tree
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium|||
 
