@@ -92,10 +92,30 @@ updating...
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MinimumDepthofBinaryTree.cpp)|_O(n)_|_O(h)_|easy|||
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SumRoottoLeafNumbers.cpp)|_O(n)_|_O(h)_|medium||使用辅助函数，用0作为和 。停止条件：如果是空则return 0 ，如果左子树和右子树都不存在，则返回当前结点的值 ，其他情况递归左子树和右子树。|
 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeLongestConsecutiveSequence.cpp)|_O(n)_|_O(h)_|medium|||
+|669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TrimaBinarySearchTree.cpp)|_O(n)_|_O(h)_|easy||如果当前结点值小于L或大于R，则递归返回右子树或左子树，再分别递归左子树和右子树|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConvertSortedArraytoBinarySearchTree.cpp)|_O(n)_|_O(h)_|easy||二分法构建BST|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ValidateBinarySearchTree.cpp)|_O(n)_|_O(h)_|medium||递归，设置上下边界的值，注意边界值设置成numeric_limits<long>::max() min() |
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConstructBinaryTreefromPreorderandInorderTraversal.cpp)|_O(n)_|_O(n)_|medium||构造一个map记录中序中的序号，从该序号以前是左子树，以后是右子树|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConstructBinaryTreefromInorderandPostorderTraversal.cpp)|_O(n)_|_O(n)_|medium||同上构造一个map，递归创建左子树和右子树|
+|109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ConvertSortedListtoBinarySearchTree.cpp)|_O(n)_|_O(n)_|medium||使用快慢指针找到中间节点，中间节点的左子树从开始到中间节点的构造的bst，右子树是从中间节点的一下个节点到最后节点构造的bst。|
+|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FlattenBinaryTreetoLinkedList.cpp)|_O(n)_|_O(n)_|medium||将左子树放在右子树的位置上，并将原来的右子树放在新右子树的右子树|
+|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SumofLeftLeaves.cpp)|_O(n)_|_O(h)_|easy||构造辅助函数，加入适否是左子树标记。如果叶子结点（左右子树为空），如果是左子树，则返回叶子的值，否则返回0，递归左子树和右子树|
+|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSumIII.cpp)|_O(n^2)_|_O(h)_|easy||辅助函数记录当前的值，再去遍历左子树和右子树|
+|671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SecondMinimumNodeInaBinaryTree.cpp)|_O(n^2)_|_O(n)_|medium||使用辅助函数，以及set存储（里面元素是从小到大排列的）当前节点的值，如果set>2则删除末尾的结点，便利左子树和右子树。则此时set保存了所有节点中最小的两个值，取后面的那个即可|
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PopulatingNextRightPointersinEachNode.cpp)|_O(n)_|_O(log n)_|medium||如果是空则退出，如果存在左子树则把左子树的next指向右子树，如果存在右子树且存在next，则右子树的next指向next的左子树|
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
+## Binary Search
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SearchforaRange.cpp)|_O(logn)_|_O(1)_|medium|||
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium||二分法|
+
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium|||
+
 
 
 

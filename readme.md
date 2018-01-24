@@ -102,15 +102,18 @@ updating...
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SumofLeftLeaves.cpp)|_O(n)_|_O(h)_|easy||构造辅助函数，加入适否是左子树标记。如果叶子结点（左右子树为空），如果是左子树，则返回叶子的值，否则返回0，递归左子树和右子树|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSumIII.cpp)|_O(n^2)_|_O(h)_|easy||辅助函数记录当前的值，再去遍历左子树和右子树|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SecondMinimumNodeInaBinaryTree.cpp)|_O(n^2)_|_O(n)_|medium||使用辅助函数，以及set存储（里面元素是从小到大排列的）当前节点的值，如果set>2则删除末尾的结点，便利左子树和右子树。则此时set保存了所有节点中最小的两个值，取后面的那个即可|
+|116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PopulatingNextRightPointersinEachNode.cpp)|_O(n)_|_O(log n)_|medium||如果是空则退出，如果存在左子树则把左子树的next指向右子树，如果存在右子树且存在next，则右子树的next指向next的左子树|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
 
 
 ## Binary Search
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
-|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SearchforaRange.cpp)|_O(logn)_|_O(1)_|medium|||
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium||二分法|
+|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SearchforaRange.cpp)|_O(logn)_|_O(1)_|medium||二分法|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium||二分法|
 
-Second Minimum Node In a Binary Tree
+
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n^2)_|_O(n)_|medium|||
 
 
