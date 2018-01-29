@@ -19,7 +19,7 @@ public:
             } else if (nums[mid] == nums[left]) {
                 ++left;
             } else if ((nums[mid] > nums[left] && nums[left] <= target && target < nums[mid]) ||  //左边有序
-                       (nums[mid] < nums[left] && !(nums[mid] < target && target <= nums[right]))) {  // 同样，如果nums[mid] < nums[left] 说明左边有序，右边乱序且值在左边
+                       (nums[mid] < nums[left] && !(nums[mid] < target && target <= nums[right]))) {  // 同样，如果nums[mid] < nums[left] 说明左边有序，右边乱序
                 right = mid - 1;
             } else {
                 left = mid + 1;
