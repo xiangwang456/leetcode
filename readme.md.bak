@@ -117,8 +117,8 @@ updating...
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SearchinRotatedSortedArray.cpp)|_O(logn)_|_O(1)_|medium||每次在有序的那一半元素里找，抛弃另一半元素|
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SearchinRotatedSortedArrayII.cpp)|_O(logn)_|_O(1)_|medium||如果nums[left] == nums[mid] 则++left|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||二分法中间值大于后面那个元素则证明前面一部分一定有极值（因为o是无穷小）否则右边一定有极值|
-|153|[Find Minimum in Rotated Sorted Array]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||如果没有旋转则是最左边的元素，如果有旋转，则找乱序里面最左边的元素|
-
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||如果没有旋转则是最左边的元素，如果有旋转，则找乱序里面最左边的元素|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindMinimuminRotatedSortedArrayII.cpp)|_O(n)_|_O(n)_|medium|||
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
