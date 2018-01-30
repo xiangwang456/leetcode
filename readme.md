@@ -120,7 +120,7 @@ updating...
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||如果没有旋转则是最左边的元素，如果有旋转，则找乱序里面最左边的元素|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindMinimuminRotatedSortedArrayII.cpp)|_O(n)_|_O(n)_|medium||如果mid和左边相同则left ++ ，判断一开始是否乱序时条件是nums[left] <= nums[right]|
 
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
 
 ## Binary Search Tree
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
@@ -128,6 +128,7 @@ updating...
 |230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/KthSmallestElementinaBST.cpp)|_O(max(h,k))_|_O(h)_|medium||把元素从根节点到左子树开始入栈，从最小元素开始出栈，直到第k个最小元素为止|
 |235|[Lowest Common Ancestor of a Binary Search Tree]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LowestCommonAncestorofaBinarySearchTree.cpp)|_O(h)_|_O(1)_|easy||公共祖先的值一定是比小的元素大，比大的元素小，按照这个要求去遍历即可|
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/DeleteNodeinaBST.cpp)|_O(h)_|_O(h)_|medium||左子树为空右子树为空都不为空三种情况，都不为空时将右子树中最小的点变为替换结点|
+|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/InorderSuccessorinBST.cpp)|_O(h)_|_O(1)_|medium||如果有右子树，则找右子树中最左边的结点，如果没有右子树，则找大于当前结点的右子树的最左结点|
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
