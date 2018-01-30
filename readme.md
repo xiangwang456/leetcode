@@ -122,3 +122,10 @@ updating...
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
+## Binary Search Tree
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+
+
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/KthSmallestElementinaBST.cpp)|_O(max(h,k))_|_O(h)_|medium||把元素从根节点到左子树开始入栈，从最小元素开始出栈，直到第k个最小元素为止|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
