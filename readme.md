@@ -129,6 +129,8 @@ updating...
 |235|[Lowest Common Ancestor of a Binary Search Tree]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LowestCommonAncestorofaBinarySearchTree.cpp)|_O(h)_|_O(1)_|easy||公共祖先的值一定是比小的元素大，比大的元素小，按照这个要求去遍历即可|
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/DeleteNodeinaBST.cpp)|_O(h)_|_O(h)_|medium||左子树为空右子树为空都不为空三种情况，都不为空时将右子树中最小的点变为替换结点|
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/InorderSuccessorinBST.cpp)|_O(h)_|_O(1)_|medium||如果有右子树，则找右子树中最左边的结点，如果没有右子树，则找大于当前结点的右子树的最左结点|
+|270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ClosestBinarySearchTreeValue.cpp)|_O(h)_|_O(1)_|easy||两个变量gap和closet|
+
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
