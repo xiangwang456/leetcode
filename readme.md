@@ -129,8 +129,16 @@ updating...
 |235|[Lowest Common Ancestor of a Binary Search Tree]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LowestCommonAncestorofaBinarySearchTree.cpp)|_O(h)_|_O(1)_|easy||公共祖先的值一定是比小的元素大，比大的元素小，按照这个要求去遍历即可|
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/DeleteNodeinaBST.cpp)|_O(h)_|_O(h)_|medium||左子树为空右子树为空都不为空三种情况，都不为空时将右子树中最小的点变为替换结点|
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/InorderSuccessorinBST.cpp)|_O(h)_|_O(1)_|medium||如果有右子树，则找右子树中最左边的结点，如果没有右子树，则找大于当前结点的右子树的最左结点|
-|270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ClosestBinarySearchTreeValue.cpp)|_O(h)_|_O(1)_|easy||两个变量gap和closet|
-
-
+|270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ClosestBinarySearchTreeValue.cpp)|_O(h)_|_O(1)_|easy||两个变量gap和closet，不断遍历左子树找最小的gap的closet值|
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
+
+## Breadth-First Search
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeLevelOrderTraversal.cpp)|_O(n)_|_O(n)_|easy||层序遍历广度优先，使用一个队列遍历当前层元素，把当前层元素的左子树和右子树放在队列中的后面|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+
 
