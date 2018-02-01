@@ -138,6 +138,8 @@ updating...
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeLevelOrderTraversal.cpp)|_O(n)_|_O(n)_|easy||层序遍历广度优先，使用一个队列遍历当前层元素，把当前层元素的左子树和右子树放在队列中的后面|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeZigzagLevelOrderTraversal.cpp)|_O(n)_|_O(n)_|medium||与上题相同，多加一个判断是否reverse|
+|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PopulatingNextRightPointersinEachNodeII.cpp)|_O(n)_|_O(1)_|medium||记录prev、curr、next三个结点，双层遍历，外层遍历遍历所有层，内层设置每个子节点的next|
+|133|[Clone Graph](https://leetcode.com/problems/clone-graph/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CloneGraph.cpp)|_O(n)_|_O(n)_|medium||广度优先遍历，使用队列保存当前遍历的结点，使用map保存原图和新图的结点映射，遍历时判断原来是否已经遍历过此节点，如果已经遍历过只更新neighbour，没有的话加入映射并更新neighbour|
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
