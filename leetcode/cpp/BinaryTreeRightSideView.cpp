@@ -1,6 +1,6 @@
 //
 // Created by zhangqi on 2018/2/2.
-///Time : O(n)
+//Time : O(n)
 //Space : O(h)
 
 #include "TreeNode.h"
