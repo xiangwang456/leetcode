@@ -150,10 +150,9 @@ updating...
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSum.cpp)|_O(n)_|_O(h)_|easy||递归，停止条件：root为空或者是叶子节点且值等于sum|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSumII.cpp)|_O(n)_|_O(h)_|medium||记录迭代的路径经过的点，把当前节点的值先放进去，如果满足sum则放入结果集，再pop出当前元素|
+|199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeRightSideView.cpp)|_O(n)_|_O(h)_|medium||用一个数字来表示当前所在的层，每层只放一个节点，如果结果集数目小于当前层数则把当前节点放进去，先遍历右子树再遍历左子树|
+
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
-
-
-Path Sum
