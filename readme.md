@@ -143,11 +143,17 @@ updating...
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CourseSchedule.cpp)|_O(|V| + |E|)_|_O(|E|)_|medium||拓扑排序图使用二维数组表示，再用数组保存每个节点的入度，把入度为0的节点放入队列中，遍历图。遍历到的点入度减1，入度为0则放入队列，看最后是否还有入度不为0的点|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CourseScheduleII.cpp)|_O(|V| + |E|)_|_O(|E|)_|medium||与上题类似，把入度为0的点依次加入结果集中即可|
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/GraphValidTree.cpp)|_O(n)_|_O(n)_|medium||可以使用并查集。图是有效的树：1、没有环 2、是连通的 ，其中2等价于图节点数等于边数减一|
-|127|[WordLadder](https://leetcode.com/problems/word-ladder/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/WordLadder.cpp)|_O(n)_|_O(n)_|medium||BFS|
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/WordLadder.cpp)|_O(n)_|_O(n)_|medium||BFS 每次遍历当前队列中的元素，当变换字母时加入新的队列中|
 
 
+## Depth-First Search
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PathSum.cpp)|_O(n)_|_O(h)_|easy||递归，停止条件：root为空或者是叶子节点且值等于sum|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
+Path Sum
