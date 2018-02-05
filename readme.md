@@ -154,6 +154,11 @@ updating...
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeRightSideView.cpp)|_O(n)_|_O(h)_|medium||用一个数字来表示当前所在的层，每层只放一个节点，如果结果集数目小于当前层数则把当前节点放进去，先遍历右子树再遍历左子树|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LowestCommonAncestorofaBinaryTree.cpp)|_O(n)_|_O(n)_|medium||如果左子树和右子树里都有目标节点则root是lca|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/NumberofIslands.cpp)|_O(m*n)_|_O(m*n)_|medium||遍历每个值，如果是island则dfs更新周围的点为water|
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreePaths.cpp)|_O(n*h)_|_O(h)_|easy||dfs 当前路径和结果集|
+
+
+
+
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
