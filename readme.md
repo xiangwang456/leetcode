@@ -157,12 +157,13 @@ updating...
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreePaths.cpp)|_O(n*h)_|_O(h)_|easy||dfs 当前路径和结果集|
 
 
-
+## Backtracking      1) 定义一个解空间，它包含问题的解  2) 用适于搜索的方式组织该空间  3) 用深度优先法搜索该空间，利用限界函数避免移动到不可能产生解的子空间。
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|78|[Subsets](https://leetcode.com/problems/subsets/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Subsets.cpp)|_O(n * 2^n)_|_O(1)_|medium||遍历每个元素的时候，找到每个元素所在的子集并添加到结果集里|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
-
-Number of Islands
- NumberofIslands
