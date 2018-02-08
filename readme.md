@@ -161,9 +161,10 @@ updating...
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |78|[Subsets](https://leetcode.com/problems/subsets/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Subsets.cpp)|_O(n * 2^n)_|_O(1)_|medium||遍历每个元素的时候，找到每个元素所在的子集并添加到结果集里|
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CombinationSum.cpp)|_O(k * n^k)_|_O(k)_|medium||dfs，先给候选元素排序，再记录每次循环的位置避免重复|
 
 
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|||
 
+Combination Sum
