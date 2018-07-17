@@ -5,9 +5,11 @@
 
 #include <vector>
 #include <string>
-#include <c++/unordered_map>
-#include <c++/set>
-#include <c++/map>
+#include <unordered_map>
+#include <unordered_set>
+#include <set>
+#include <map>
+
 
 using namespace std;
 

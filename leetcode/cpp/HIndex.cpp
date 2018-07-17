@@ -2,8 +2,8 @@
 // Created by zhangqi on 2017/12/19.
 
 #include <vector>
-#include <c++/functional>
-#include <c++/algorithm>
+#include <functional>
+#include <algorithm>
 
 using namespace std;
 

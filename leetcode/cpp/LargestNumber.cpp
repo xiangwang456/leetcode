@@ -5,7 +5,7 @@
 
 #include <vector>
 #include <string>
-#include <c++/algorithm>
+#include <algorithm>
 
 using  namespace std;
 class Solution {

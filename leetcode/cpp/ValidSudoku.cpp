@@ -5,7 +5,7 @@
 
 
 #include <vector>
-#include <c++/bitset>
+#include <bitset>
 
 
 using namespace std;

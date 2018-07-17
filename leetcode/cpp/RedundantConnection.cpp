@@ -5,7 +5,8 @@
 //并查集
 
 #include <vector>
-#include <c++/numeric>
+#include <numeric>
+
 
 using namespace std;
 

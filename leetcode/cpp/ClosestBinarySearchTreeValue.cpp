@@ -4,8 +4,9 @@
 // Space: O(1)
 
 #include <limits>
+#include <cmath>
 #include "TreeNode.h"
-#include <stdlib.h>
+
 
 using  namespace std;
 class Solution {

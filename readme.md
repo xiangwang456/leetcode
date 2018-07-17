@@ -119,6 +119,7 @@ updating...
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||二分法中间值大于后面那个元素则证明前面一部分一定有极值（因为o是无穷小）否则右边一定有极值|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium||如果没有旋转则是最左边的元素，如果有旋转，则找乱序里面最左边的元素|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindMinimuminRotatedSortedArrayII.cpp)|_O(n)_|_O(n)_|medium||如果mid和左边相同则left ++ ，判断一开始是否乱序时条件是nums[left] <= nums[right]|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FirstBadVersion.cpp)|_O(logn)_|_O(1)_|easy|||
 
 
 
@@ -140,8 +141,8 @@ updating...
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreeZigzagLevelOrderTraversal.cpp)|_O(n)_|_O(n)_|medium||与上题相同，多加一个判断是否reverse|
 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PopulatingNextRightPointersinEachNodeII.cpp)|_O(n)_|_O(1)_|medium||记录prev、curr、next三个结点，双层遍历，外层遍历遍历所有层，内层设置每个子节点的next|
 |133|[Clone Graph](https://leetcode.com/problems/clone-graph/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CloneGraph.cpp)|_O(n)_|_O(n)_|medium||广度优先遍历，使用队列保存当前遍历的结点，使用map保存原图和新图的结点映射，遍历时判断原来是否已经遍历过此节点，如果已经遍历过只更新neighbour，没有的话加入映射并更新neighbour|
-|207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CourseSchedule.cpp)|_O(|V| + |E|)_|_O(|E|)_|medium||拓扑排序图使用二维数组表示，再用数组保存每个节点的入度，把入度为0的节点放入队列中，遍历图。遍历到的点入度减1，入度为0则放入队列，看最后是否还有入度不为0的点|
-|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CourseScheduleII.cpp)|_O(|V| + |E|)_|_O(|E|)_|medium||与上题类似，把入度为0的点依次加入结果集中即可|
+|207|[Course Schedule](https://leetcode.com/problems/course-schedule/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CourseSchedule.cpp)|_O(V + E)_|_O(E)_|medium||拓扑排序图使用二维数组表示，再用数组保存每个节点的入度，把入度为0的节点放入队列中，遍历图。遍历到的点入度减1，入度为0则放入队列，看最后是否还有入度不为0的点|
+|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/CourseScheduleII.cpp)|_O(V + E)_|_O(E)_|medium||与上题类似，把入度为0的点依次加入结果集中即可|
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/GraphValidTree.cpp)|_O(n)_|_O(n)_|medium||可以使用并查集。图是有效的树：1、没有环 2、是连通的 ，其中2等价于图节点数等于边数减一|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/WordLadder.cpp)|_O(n)_|_O(n)_|medium||BFS 每次遍历当前队列中的元素，当变换字母时加入新的队列中|
 
@@ -157,7 +158,9 @@ updating...
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/BinaryTreePaths.cpp)|_O(n*h)_|_O(h)_|easy||dfs 当前路径和结果集|
 
 
-## Backtracking      1) 定义一个解空间，它包含问题的解  2) 用适于搜索的方式组织该空间  3) 用深度优先法搜索该空间，利用限界函数避免移动到不可能产生解的子空间。
+## Backtracking      
+1) 定义一个解空间，它包含问题的解  2) 用适于搜索的方式组织该空间  3) 用深度优先法搜索该空间，利用限界函数避免移动到不可能产生解的子空间。
+
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |78|[Subsets](https://leetcode.com/problems/subsets/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Subsets.cpp)|_O(n * 2^n)_|_O(1)_|medium||遍历每个元素的时候，找到每个元素所在的子集并添加到结果集里|

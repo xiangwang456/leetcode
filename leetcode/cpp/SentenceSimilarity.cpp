@@ -6,8 +6,8 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include <c++/numeric>
-#include <c++/bits/unordered_set.h>
+#include <numeric>
+#include <unordered_set>
 
 using namespace std;
 class Solution {

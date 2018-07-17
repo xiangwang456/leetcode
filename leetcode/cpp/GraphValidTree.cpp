@@ -4,7 +4,7 @@
 //Space : O(n)
 
 #include <vector>
-#include <c++/numeric>
+#include <numeric>
 
 using namespace std;
 

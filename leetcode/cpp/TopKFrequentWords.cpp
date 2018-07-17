@@ -5,9 +5,8 @@
 
 
 #include <vector>
-#include <c++/unordered_map>
 #include <string>
-#include <c++/algorithm>
+#include <unordered_map>
 
 using namespace std;
 

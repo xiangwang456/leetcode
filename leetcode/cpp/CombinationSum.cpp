@@ -24,7 +24,7 @@ public:
 private :
 
     void dfs(vector<int>& candidates, vector<vector<int>> &result, vector<vector<int>>curr,int gap, int start){
-
+        /*
         if(gap == 0){
             result.push_back(curr);
             return;
@@ -38,6 +38,6 @@ private :
             dfs(candidates,result,curr,target - candidate, i);
             curr.pop_back();
         }
-
+        */
     }
 };

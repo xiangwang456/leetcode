@@ -6,7 +6,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include <c++/numeric>
+#include <numeric>
 
 using namespace std;
 
