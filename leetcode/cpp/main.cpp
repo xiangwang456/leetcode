@@ -10,17 +10,12 @@
 #include <limits>
 #include <algorithm>
 #include "TreeNode.h"
-#include "AccountsMerge.cpp"
+#include "FindTheWeakConnectedComponentInTheDirectedGraph.cpp"
 
 using namespace std;
 
 int main() {
     Solution solu ;
-    TreeNode node1 = TreeNode{0};
-    TreeNode node2 = TreeNode{1};
-    TreeNode node3 = TreeNode{1};
-    node1.left = &node2;
-    node1.right = &node2;
     //cout << solu.lengthOfLongestSubstringTwoDistinct("eceba");
 
 
@@ -51,6 +46,7 @@ int main() {
 
      */
 
+    /* account merge
     vector<int> num1({1,2});
     vector<int> num2({1,3});
     vector<int> num3({2,3});
@@ -73,6 +69,6 @@ int main() {
             {"John","johnnybravo@mail.com"}};
 
     solu.accountsMerge(a);
-
+    */
 
 }
