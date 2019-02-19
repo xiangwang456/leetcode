@@ -1,8 +1,8 @@
 //
 // Created by zhangqi on 2019/2/19.
 //
-//Time : O(n)
-//Space : O(n)
+//Time : O(lgn)
+//Space : O(1)
 
 #include <c++/climits>
 #include "SegmentTreeNode.h"
