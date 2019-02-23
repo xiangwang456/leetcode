@@ -40,6 +40,13 @@ updating...
 |457|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/4SumII.cpp)|_O(n^2)_|_O(n^2)_|medium||统计前两个数组两两元素的和并统计次数，再和后两个进行比较|
 |lintcode|[Find the Weak Connected Component in the Directed Graph](http://lintcode.com/en/problem/find-the-weak-connected-component-in-the-directed-graph/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/FindTheWeakConnectedComponentInTheDirectedGraph.cpp)|_O(n^2)_|_O(n^2)_|medium||并查集|
 
+## Heap
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|130|[Heapify](http://lintcode.com/en/problem/heapify/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Heapify.cpp)|_O(n)_|_O(n)_|medium|lintcode|Heap|
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+
 ## Math
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
