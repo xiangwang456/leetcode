@@ -88,6 +88,9 @@ updating...
 |345|[Reverse Vowels of a String]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ReverseVowelsofaString.cpp)|_O(n)_|_O(1)_|easy||细节:aeiou字符串弄成const string 2、比对时都用小写 |
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/IntersectionofTwoArrays.cpp)|_O(n + m)_|_O(n + m)_|easy||1、哈希法：将第一个数组放入set中，遍历第二个数据 2、对两个数组排序再同事比对|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/PermutationinString.cpp)|_O(n)_|_O(n)_|medium||利用哈希表将第一个字符串的的元素都存起来，再遍历第二个字符串，在第一个字符串长度大小的窗口里检查是否全部出现了哈希表里字符。注意字符串哈表使用vector<int> count(256)而不是vector<char>|
+|363|[Trapping Rain Water]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TrappingRainWater.cpp)|_O(n)_|_O(1)_|medium|lintcode||
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
 
 
 ## Recursion
