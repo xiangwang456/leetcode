@@ -44,7 +44,7 @@ updating...
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |130|[Heapify](http://lintcode.com/en/problem/heapify/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Heapify.cpp)|_O(n)_|_O(n)_|medium|lintcode|Heap|
-|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+|364|[Trapping Rain Water II](http://lintcode.com/en/problem/trapping-rain-water-ii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TrappingRainWaterII.cpp)|_O(m*n*(logm+logn)_|_O(m*n)_|hard|lintcode||
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
 
 ## Math
