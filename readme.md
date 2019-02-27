@@ -45,6 +45,9 @@ updating...
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |130|[Heapify](http://lintcode.com/en/problem/heapify/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/Heapify.cpp)|_O(n)_|_O(n)_|medium|lintcode|Heap|
 |364|[Trapping Rain Water II](http://lintcode.com/en/problem/trapping-rain-water-ii/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/TrappingRainWaterII.cpp)|_O(m*n*(logm+logn)_|_O(m*n)_|hard|lintcode||
+|81|[Data Stream Median](http://lintcode.com/en/problem/data-stream-median/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/DataStreamMedian.cpp)|_O(nlogn)_|_O(n)_|hard|lintcode|two heap|
+
+
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
 
 ## Math
