@@ -63,6 +63,15 @@ updating...
 
 |1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
 
+## Data Structure
+| # | title | Solution | Time | Space | Difficulty| Tag| Note |
+|---|:---:|:---------|:-----|-------| ----------| ---| ---- |
+|134|[LRU Cache](http://lintcode.com/en/problem/lru-cache/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LRUCache.cpp)|_O(1)_|_O(k)_|hard|lintcode||
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+
+
+
 ## Math
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
