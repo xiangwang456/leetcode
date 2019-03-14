@@ -16,22 +16,21 @@ public:
      * @return: The area of largest rectangle in the histogram
      */
     int largestRectangleArea(vector<int> &height) {
-        stack<int> increasing_height;
-        int max_area = 0;
 
-        for (int i = 0; i <= height.size();) {
-            if (increasing_height.empty() ||
-                (i < height.size() && height[i] > height[increasing_height.top()])) {
-                increasing_height.emplace(i);
-                ++i;
-            } else {
-                auto h = height[increasing_height.top()];
-                increasing_height.pop();
-                auto left = increasing_height.empty() ? -1 : increasing_height.top();
-                max_area = max(max_area, h * (i - left - 1));
+        int ans  = 0;
+        stack<int> increaHegihtIndex;
+        for(int i = 0; i <= height.size(); ){
+            if(increaHegihtIndex.empty() ||   (i < height.size() && height[i] > height[increaHegihtIndex.top()])){
+                increaHegihtIndex.push(i);
+                i++;
+            } else{
+                int h = height[increaHegihtIndex.top()];
+                increaHegihtIndex.pop();
+                int left = increaHegihtIndex.empty() ?  -1 : increaHegihtIndex.top();
+                ans = max( ans, h * (i - 1 - left )) ;
             }
         }
+        return  ans;
 
-        return max_area;
     }
 };

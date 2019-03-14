@@ -44,6 +44,14 @@ updating...
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
 |---|:---:|:---------|:-----|-------| ----------| ---| ---- |
 |362|[Sliding Window Maximum](http://lintcode.com/en/problem/sliding-window-maximum/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/SlidingWindowMaximum.cpp)|_O(n)_|_O(n)_|medium|lintcode|deque|
+|122|[Largest Rectangle in Histogram](http://lintcode.com/en/problem/largest-rectangle-in-histogram/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/LargestRectangleinHistogram.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+|126|[Max Tree](http://lintcode.com/en/problem/max-tree/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/MaxTree.cpp)|_O(n)_|_O(n)_|hard|lintcode|decending stack|
+|367|[Expression Tree Build](http://lintcode.com/en/problem/expression-tree-build/)|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/ExpressionTreeBuild.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+
+
+|1|[]()|[C++](https://github.com/zoo-keeper/leetcode/blob/master/leetcode/cpp/.cpp)|_O(n)_|_O(n)_|medium|lintcode||
+
+
 
 ## Heap
 | # | title | Solution | Time | Space | Difficulty| Tag| Note |
